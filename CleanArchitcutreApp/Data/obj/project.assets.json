@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\server\\.nuget\\packages\\": {}
+    "C:\\Users\\Abdeltwab\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Data\\Data.csproj",
+      "projectUniqueName": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Data\\Data.csproj",
-      "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Data\\obj\\",
+      "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj",
+      "packagesPath": "C:\\Users\\Abdeltwab\\.nuget\\packages\\",
+      "outputPath": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\server\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Abdeltwab\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

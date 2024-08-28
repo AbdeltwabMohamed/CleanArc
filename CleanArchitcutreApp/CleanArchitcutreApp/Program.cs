@@ -2,6 +2,7 @@ using Infrastracutre.Data;
 using Infrastracutre;
 using Microsoft.EntityFrameworkCore;
 using Service;
+using Core;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +17,8 @@ builder.Services
     (opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 
 builder.Services.AddInfraConfig()
-    .AddServiceConfig();
+    .AddServiceConfig()
+    .AddCorConfig();
 
 var app = builder.Build();
 

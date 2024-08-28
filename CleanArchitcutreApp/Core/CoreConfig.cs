@@ -1,0 +1,20 @@
+﻿using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Core
+{
+    public static class CoreConfig
+    {
+        public static IServiceCollection AddCorConfig(this IServiceCollection services)
+        {
+            services.AddMediatR(c=>c.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly()))
+                .AddAutoMapper(Assembly.GetExecutingAssembly());
+            return services;
+        }
+    }
+}

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Core\\Core.csproj": {}
+    "D:\\CleanArc\\CleanArchitcutreApp\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Core\\Core.csproj": {
+    "D:\\CleanArc\\CleanArchitcutreApp\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\CleanArc\\CleanArchitcutreApp\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Core\\obj\\",
+        "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Abdeltwab\\.nuget\\packages\\",
+        "outputPath": "D:\\CleanArc\\CleanArchitcutreApp\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\server\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Abdeltwab\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,21 +22,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Data\\Data.csproj"
+              "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj": {
+                "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj"
               },
-              "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj": {
-                "projectPath": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj"
+              "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj": {
+                "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj"
               },
-              "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Service\\Service.csproj"
+              "D:\\CleanArc\\CleanArchitcutreApp\\Service\\Service.csproj": {
+                "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Service\\Service.csproj"
               }
             }
           }
@@ -55,6 +54,24 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.0, )"
+            },
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -75,17 +92,17 @@
         }
       }
     },
-    "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Data\\Data.csproj": {
+    "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Data\\Data.csproj",
+        "projectUniqueName": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Data\\obj\\",
+        "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Abdeltwab\\.nuget\\packages\\",
+        "outputPath": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\server\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Abdeltwab\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,7 +110,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -136,17 +152,17 @@
         }
       }
     },
-    "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj": {
+    "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj",
+        "projectUniqueName": "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj",
         "projectName": "Infrastracutre",
-        "projectPath": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj",
-        "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Infrastracutre\\obj\\",
+        "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj",
+        "packagesPath": "C:\\Users\\Abdeltwab\\.nuget\\packages\\",
+        "outputPath": "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\server\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Abdeltwab\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -154,15 +170,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Data\\Data.csproj"
+              "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj": {
+                "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj"
               }
             }
           }
@@ -217,17 +232,17 @@
         }
       }
     },
-    "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Service\\Service.csproj": {
+    "D:\\CleanArc\\CleanArchitcutreApp\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Service\\Service.csproj",
+        "projectUniqueName": "D:\\CleanArc\\CleanArchitcutreApp\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Service\\obj\\",
+        "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\Abdeltwab\\.nuget\\packages\\",
+        "outputPath": "D:\\CleanArc\\CleanArchitcutreApp\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\server\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Abdeltwab\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -235,18 +250,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Data\\Data.csproj"
+              "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj": {
+                "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj"
               },
-              "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj": {
-                "projectPath": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj"
+              "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj": {
+                "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj"
               }
             }
           }
