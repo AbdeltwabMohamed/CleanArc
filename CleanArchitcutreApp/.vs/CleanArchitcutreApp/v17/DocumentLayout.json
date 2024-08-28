@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E46D1ECF-8A89-4469-90F4-3E7A807D634A}|CleanArchitcutreApp\\CleanArchitcutreAppAPI.csproj|c:\\users\\server\\source\\repos\\cleanarchitcutreapp\\cleanarchitcutreapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46D1ECF-8A89-4469-90F4-3E7A807D634A}|CleanArchitcutreApp\\CleanArchitcutreAppAPI.csproj|solutionrelative:cleanarchitcutreapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA54A1D-6D0D-4D46-8119-99FCC20071CB}|Service\\Service.csproj|c:\\users\\server\\source\\repos\\cleanarchitcutreapp\\service\\servicesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA54A1D-6D0D-4D46-8119-99FCC20071CB}|Service\\Service.csproj|solutionrelative:service\\servicesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA54A1D-6D0D-4D46-8119-99FCC20071CB}|Service\\Service.csproj|c:\\users\\server\\source\\repos\\cleanarchitcutreapp\\service\\services\\studentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA54A1D-6D0D-4D46-8119-99FCC20071CB}|Service\\Service.csproj|solutionrelative:service\\services\\studentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA54A1D-6D0D-4D46-8119-99FCC20071CB}|Service\\Service.csproj|c:\\users\\server\\source\\repos\\cleanarchitcutreapp\\service\\interfaces\\istudentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA54A1D-6D0D-4D46-8119-99FCC20071CB}|Service\\Service.csproj|solutionrelative:service\\interfaces\\istudentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A180AC-8C3E-4F3C-AF68-61D130A68F8D}|Infrastracutre\\Infrastracutre.csproj|c:\\users\\server\\source\\repos\\cleanarchitcutreapp\\infrastracutre\\infrastracureconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A180AC-8C3E-4F3C-AF68-61D130A68F8D}|Infrastracutre\\Infrastracutre.csproj|solutionrelative:infrastracutre\\infrastracureconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A180AC-8C3E-4F3C-AF68-61D130A68F8D}|Infrastracutre\\Infrastracutre.csproj|c:\\users\\server\\source\\repos\\cleanarchitcutreapp\\infrastracutre\\repos\\baserepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A180AC-8C3E-4F3C-AF68-61D130A68F8D}|Infrastracutre\\Infrastracutre.csproj|solutionrelative:infrastracutre\\repos\\baserepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A180AC-8C3E-4F3C-AF68-61D130A68F8D}|Infrastracutre\\Infrastracutre.csproj|c:\\users\\server\\source\\repos\\cleanarchitcutreapp\\infrastracutre\\interfaces\\ibaserepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A180AC-8C3E-4F3C-AF68-61D130A68F8D}|Infrastracutre\\Infrastracutre.csproj|solutionrelative:infrastracutre\\interfaces\\ibaserepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\CleanArchitcutreApp\\Program.cs",
+              "RelativeDocumentMoniker": "CleanArchitcutreApp\\Program.cs",
+              "ToolTip": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\CleanArchitcutreApp\\Program.cs",
+              "RelativeToolTip": "CleanArchitcutreApp\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T11:10:22.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServicesConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Service\\ServicesConfiguration.cs",
+              "RelativeDocumentMoniker": "Service\\ServicesConfiguration.cs",
+              "ToolTip": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Service\\ServicesConfiguration.cs",
+              "RelativeToolTip": "Service\\ServicesConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T11:08:41.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentServices.cs",
+              "DocumentMoniker": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Service\\Services\\StudentServices.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\StudentServices.cs",
+              "ToolTip": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Service\\Services\\StudentServices.cs",
+              "RelativeToolTip": "Service\\Services\\StudentServices.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T11:04:45.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IStudentServices.cs",
+              "DocumentMoniker": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Service\\Interfaces\\IStudentServices.cs",
+              "RelativeDocumentMoniker": "Service\\Interfaces\\IStudentServices.cs",
+              "ToolTip": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Service\\Interfaces\\IStudentServices.cs",
+              "RelativeToolTip": "Service\\Interfaces\\IStudentServices.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T11:04:32.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBaseRepositry.cs",
+              "DocumentMoniker": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Infrastracutre\\Interfaces\\IBaseRepositry.cs",
+              "RelativeDocumentMoniker": "Infrastracutre\\Interfaces\\IBaseRepositry.cs",
+              "ToolTip": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Infrastracutre\\Interfaces\\IBaseRepositry.cs",
+              "RelativeToolTip": "Infrastracutre\\Interfaces\\IBaseRepositry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T11:01:40.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseRepositry.cs",
+              "DocumentMoniker": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Infrastracutre\\Repos\\BaseRepositry.cs",
+              "RelativeDocumentMoniker": "Infrastracutre\\Repos\\BaseRepositry.cs",
+              "ToolTip": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Infrastracutre\\Repos\\BaseRepositry.cs",
+              "RelativeToolTip": "Infrastracutre\\Repos\\BaseRepositry.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T11:01:37.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InfrastracureConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Infrastracutre\\InfrastracureConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastracutre\\InfrastracureConfiguration.cs",
+              "ToolTip": "C:\\Users\\server\\source\\repos\\CleanArchitcutreApp\\Infrastracutre\\InfrastracureConfiguration.cs",
+              "RelativeToolTip": "Infrastracutre\\InfrastracureConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T10:29:23.519Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

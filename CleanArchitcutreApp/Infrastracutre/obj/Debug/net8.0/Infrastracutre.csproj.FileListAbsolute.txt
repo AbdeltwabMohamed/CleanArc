@@ -1,0 +1,17 @@
+C:\Users\server\source\repos\CleanArchitcutreApp\Infrastracutre\bin\Debug\net8.0\Infrastracutre.deps.json
+C:\Users\server\source\repos\CleanArchitcutreApp\Infrastracutre\bin\Debug\net8.0\Infrastracutre.runtimeconfig.json
+C:\Users\server\source\repos\CleanArchitcutreApp\Infrastracutre\bin\Debug\net8.0\Infrastracutre.dll
+C:\Users\server\source\repos\CleanArchitcutreApp\Infrastracutre\bin\Debug\net8.0\Infrastracutre.pdb
+C:\Users\server\source\repos\CleanArchitcutreApp\Infrastracutre\bin\Debug\net8.0\Data.dll
+C:\Users\server\source\repos\CleanArchitcutreApp\Infrastracutre\bin\Debug\net8.0\Data.pdb
+C:\Users\server\source\repos\CleanArchitcutreApp\Infrastracutre\obj\Debug\net8.0\Infrastracutre.csproj.AssemblyReference.cache
+C:\Users\server\source\repos\CleanArchitcutreApp\Infrastracutre\obj\Debug\net8.0\Infrastracutre.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\server\source\repos\CleanArchitcutreApp\Infrastracutre\obj\Debug\net8.0\Infrastracutre.AssemblyInfoInputs.cache
+C:\Users\server\source\repos\CleanArchitcutreApp\Infrastracutre\obj\Debug\net8.0\Infrastracutre.AssemblyInfo.cs
+C:\Users\server\source\repos\CleanArchitcutreApp\Infrastracutre\obj\Debug\net8.0\Infrastracutre.csproj.CoreCompileInputs.cache
+C:\Users\server\source\repos\CleanArchitcutreApp\Infrastracutre\obj\Debug\net8.0\Infrastr.4A269935.Up2Date
+C:\Users\server\source\repos\CleanArchitcutreApp\Infrastracutre\obj\Debug\net8.0\Infrastracutre.dll
+C:\Users\server\source\repos\CleanArchitcutreApp\Infrastracutre\obj\Debug\net8.0\refint\Infrastracutre.dll
+C:\Users\server\source\repos\CleanArchitcutreApp\Infrastracutre\obj\Debug\net8.0\Infrastracutre.pdb
+C:\Users\server\source\repos\CleanArchitcutreApp\Infrastracutre\obj\Debug\net8.0\Infrastracutre.genruntimeconfig.cache
+C:\Users\server\source\repos\CleanArchitcutreApp\Infrastracutre\obj\Debug\net8.0\ref\Infrastracutre.dll
