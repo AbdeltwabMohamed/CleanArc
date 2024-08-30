@@ -1,8 +1,9 @@
-using Infrastracutre.Data;
+using Core;
+using Core.GenralsError;
 using Infrastracutre;
+using Infrastracutre.Data;
 using Microsoft.EntityFrameworkCore;
 using Service;
-using Core;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,11 +15,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services
     .AddDbContext<ApplicationDbContext>
-    (opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+    (opt => opt.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 
 builder.Services.AddInfraConfig()
     .AddServiceConfig()
     .AddCorConfig();
+
 
 var app = builder.Build();
 
@@ -28,7 +30,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseMiddleware<GeneralErrorHandller>();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

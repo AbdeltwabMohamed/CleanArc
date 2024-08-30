@@ -1,11 +1,6 @@
 ﻿using Data.Entites;
 using Infrastracutre.Interfaces;
 using Service.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Service.Services
 {
@@ -17,9 +12,31 @@ namespace Service.Services
         {
             this.repositry = repositry;
         }
+
+        public Student Add(Student student)
+        {
+            return repositry.Add(student);
+        }
+
         public IEnumerable<Student> GetAll()
         {
-           return repositry.GetAll();
+            return repositry.GetAll();
+        }
+
+        public Student GetById(int id)
+        {
+            return repositry.GetById(id);
+        }
+
+        public bool isNameExist(string name)
+        {
+            return repositry.GetAll().Where(e => e.Name == name).FirstOrDefault() == null;
+        }
+
+        public Student Update(Student student)
+        {
+            return repositry.Update(student);
+
         }
     }
 }

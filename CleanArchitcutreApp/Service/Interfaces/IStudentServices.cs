@@ -1,14 +1,16 @@
 ﻿using Data.Entites;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Service.Interfaces
 {
     public interface IStudentServices
     {
         IEnumerable<Student> GetAll();
+        Student GetById(int id);
+
+        Student Add(Student student);
+
+        Student Update(Student student);
+
+        bool isNameExist(string n);
     }
 }

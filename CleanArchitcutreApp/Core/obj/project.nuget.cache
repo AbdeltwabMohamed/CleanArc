@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5hxF45ZsOPreF2MP+ZNEoc1/6fDAPgmhlD0yiwdF9/mkwUo+Xsq8VmECiu85R4nqgrR5sl4mHQNPlmRl0i1IBw==",
+  "dgSpecHash": "Z2DS8OtIh5W1QQxSjtXV3YDjwhYg6hZk0OPg4AUmLXI6tNf5Z54IphMsnmiMtOE8mX5NHwzI+7geCWtRBszoGA==",
   "success": true,
   "projectFilePath": "D:\\CleanArc\\CleanArchitcutreApp\\Core\\Core.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,9 @@
     "C:\\Users\\Abdeltwab\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Abdeltwab\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Abdeltwab\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\Abdeltwab\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
+    "C:\\Users\\Abdeltwab\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
+    "C:\\Users\\Abdeltwab\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.2\\fluentvalidation.dependencyinjectionextensions.11.9.2.nupkg.sha512",
     "C:\\Users\\Abdeltwab\\.nuget\\packages\\mediatr\\12.4.0\\mediatr.12.4.0.nupkg.sha512",
     "C:\\Users\\Abdeltwab\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Abdeltwab\\.nuget\\packages\\microsoft.aspnet.mvc\\5.3.0\\microsoft.aspnet.mvc.5.3.0.nupkg.sha512",
@@ -37,6 +40,7 @@
     "C:\\Users\\Abdeltwab\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.8\\microsoft.entityframeworkcore.8.0.8.nupkg.sha512",
     "C:\\Users\\Abdeltwab\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.8\\microsoft.entityframeworkcore.abstractions.8.0.8.nupkg.sha512",
     "C:\\Users\\Abdeltwab\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.8\\microsoft.entityframeworkcore.analyzers.8.0.8.nupkg.sha512",
+    "C:\\Users\\Abdeltwab\\.nuget\\packages\\microsoft.entityframeworkcore.proxies\\8.0.8\\microsoft.entityframeworkcore.proxies.8.0.8.nupkg.sha512",
     "C:\\Users\\Abdeltwab\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.8\\microsoft.entityframeworkcore.relational.8.0.8.nupkg.sha512",
     "C:\\Users\\Abdeltwab\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.8\\microsoft.entityframeworkcore.sqlserver.8.0.8.nupkg.sha512",
     "C:\\Users\\Abdeltwab\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
@@ -74,6 +78,7 @@
     "C:\\Users\\Abdeltwab\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\Abdeltwab\\.nuget\\packages\\system.diagnostics.debug\\4.0.11\\system.diagnostics.debug.4.0.11.nupkg.sha512",
     "C:\\Users\\Abdeltwab\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "C:\\Users\\Abdeltwab\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "C:\\Users\\Abdeltwab\\.nuget\\packages\\system.diagnostics.tools\\4.0.1\\system.diagnostics.tools.4.0.1.nupkg.sha512",
     "C:\\Users\\Abdeltwab\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
     "C:\\Users\\Abdeltwab\\.nuget\\packages\\system.dynamic.runtime\\4.0.11\\system.dynamic.runtime.4.0.11.nupkg.sha512",

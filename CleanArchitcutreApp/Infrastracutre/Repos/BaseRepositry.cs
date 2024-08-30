@@ -1,10 +1,6 @@
 ﻿using Infrastracutre.Data;
 using Infrastracutre.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastracutre.Repos
 {
@@ -16,9 +12,29 @@ namespace Infrastracutre.Repos
         {
             this.dbContext = dbContext;
         }
+
+        public T Add(T item)
+        {
+            dbContext.Set<T>().Add(item);
+            dbContext.SaveChanges();
+            return item;
+        }
+
         public IEnumerable<T> GetAll()
         {
-         return   dbContext.Set<T>().ToList();
+            return dbContext.Set<T>().AsNoTracking().ToList().AsQueryable();
         }
+
+        public T GetById(int id)
+        {
+            return dbContext.Set<T>().Find(id);
+        }
+        public T Update(T item)
+        {
+            dbContext.Set<T>().Update(item);
+            dbContext.SaveChanges();
+            return item;
+        }
+
     }
 }

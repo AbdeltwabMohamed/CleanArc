@@ -1,15 +1,12 @@
-﻿using Data.Entites;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Features.Students.ViewModels.Students
+namespace Core.Features.Students.ViewModels
 {
-    public class StudentListVM
+    public class SingleStudentVM
     {
 
         public int StudID { get; set; }

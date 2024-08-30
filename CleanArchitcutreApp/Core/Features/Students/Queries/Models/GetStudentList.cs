@@ -1,4 +1,5 @@
-﻿using Core.Features.Students.ViewModels.Students;
+﻿using Core.Bases;
+using Core.Features.Students.ViewModels;
 using Data.Entites;
 using MediatR;
 using System;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Core.Features.Students.Queries.Models
 {
-    public class GetStudentList:IRequest<IEnumerable<StudentListVM>>
+    public class GetStudentList:IRequest<Response<IEnumerable<StudentListVM>>>
     {
     }
 }

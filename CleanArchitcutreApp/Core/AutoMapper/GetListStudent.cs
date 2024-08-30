@@ -1,4 +1,4 @@
-﻿using Core.Features.Students.ViewModels.Students;
+﻿using Core.Features.Students.ViewModels;
 using Data.Entites;
 using System;
 using System.Collections.Generic;

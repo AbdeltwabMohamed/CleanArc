@@ -298,3 +298,7 @@ D:\CleanArc\CleanArchitcutreApp\CleanArchitcutreApp\bin\Debug\net8.0\System.Web.
 D:\CleanArc\CleanArchitcutreApp\CleanArchitcutreApp\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll
 D:\CleanArc\CleanArchitcutreApp\CleanArchitcutreApp\bin\Debug\net8.0\AutoMapper.dll
 D:\CleanArc\CleanArchitcutreApp\CleanArchitcutreApp\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\CleanArc\CleanArchitcutreApp\CleanArchitcutreApp\bin\Debug\net8.0\Castle.Core.dll
+D:\CleanArc\CleanArchitcutreApp\CleanArchitcutreApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\CleanArc\CleanArchitcutreApp\CleanArchitcutreApp\bin\Debug\net8.0\FluentValidation.dll
+D:\CleanArc\CleanArchitcutreApp\CleanArchitcutreApp\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
