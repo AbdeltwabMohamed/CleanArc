@@ -20,14 +20,25 @@ namespace Infrastracutre.Repos
             return item;
         }
 
-        public IEnumerable<T> GetAll()
+        public T Delete(T item)
         {
-            return dbContext.Set<T>().AsNoTracking().ToList().AsQueryable();
+            dbContext.Set<T>().Remove(item);
+            dbContext.SaveChanges();
+            return item;
         }
 
-        public T GetById(int id)
+
+
+        public IQueryable<T> GetAll()
         {
-            return dbContext.Set<T>().Find(id);
+            return dbContext.Set<T>().AsNoTracking();
+        }
+
+        public async Task<T> GetById(int id)
+        {
+            return await dbContext.Set<T>().FindAsync(id);
+
+
         }
         public T Update(T item)
         {

@@ -2,13 +2,15 @@
 {
     public interface IBaseRepositry<T> where T : class
     {
-        IEnumerable<T> GetAll();
+        IQueryable<T> GetAll();
 
-        T GetById(int id);
+        Task<T> GetById(int id);
 
         T Add(T item);
 
         T Update(T item);
+        T Delete(T item);
+
 
     }
 }

@@ -8,7 +8,8 @@ using Service.Interfaces;
 namespace Core.Features.Students.Commands.Handlers
 {
     internal class StudentCommandHandller : ResponseHandler, IRequestHandler<AddStudentCommand, Response<string>>,
-        IRequestHandler<EditStudentCommand, Response<string>>
+        IRequestHandler<EditStudentCommand, Response<string>>,
+        IRequestHandler<DeleteStudentCommand, Response<string>>
     {
         private readonly IStudentServices _studentServices;
         private readonly IMapper mapper;
@@ -25,6 +26,16 @@ namespace Core.Features.Students.Commands.Handlers
             _studentServices.Update(mapper.Map<Student>(request));
 
             return Success<string>("Updated Successfully", null, "dONE");
+        }
+
+        public async Task<Response<string>> Handle(DeleteStudentCommand request, CancellationToken cancellationToken)
+        {
+            var isExist = await _studentServices.GetById(request.Id);
+            if (isExist == null)
+                return NotFound<string>();
+
+            _studentServices.Delete(isExist);
+            return Deleted<string>();
         }
 
         async Task<Response<string>> IRequestHandler<AddStudentCommand, Response<string>>.Handle(AddStudentCommand request, CancellationToken cancellationToken)

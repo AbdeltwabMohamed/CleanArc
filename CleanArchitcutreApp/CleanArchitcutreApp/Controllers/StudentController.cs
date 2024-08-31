@@ -10,7 +10,6 @@ namespace CleanArchitcutreAppAPI.Controllers
     {
 
         [HttpGet]
-        [Route("55")]
         public IActionResult GetStudent()
         {
             var result = Mediator.Send(new GetStudentList());
@@ -44,5 +43,19 @@ namespace CleanArchitcutreAppAPI.Controllers
             var res = Mediator.Send(st);
             return NewResult(res.Result);
         }
+        [HttpDelete]
+        public IActionResult Delete(DeleteStudentCommand st)
+        {
+            var res = Mediator.Send(st);
+            return NewResult(res.Result);
+        }
+        [HttpPost]
+        [Route("paginate")]
+        public IActionResult Delete(GetStudentListPaginated st)
+        {
+            var res = Mediator.Send(st);
+            return Ok(res.Result);
+        }
+
     }
 }
