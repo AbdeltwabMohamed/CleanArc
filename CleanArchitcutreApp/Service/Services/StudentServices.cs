@@ -30,7 +30,7 @@ namespace Service.Services
             var Students = GetAll();
             if (Search != null || Search != String.Empty)
             {
-                Students = Students.Where(e => e.Name.Contains(Search) || e.StudID.ToString().Contains(Search) || e.Department.DName.Contains(Search));
+                Students = Students.Where(e => e.getActiveNameByLanguage(e.NameAr, e.NameEn).Contains(Search) || e.StudID.ToString().Contains(Search) || e.Department.getActiveNameByLanguage(e.NameAr, e.NameEn).Contains(Search));
 
             }
             switch (Order)
@@ -39,10 +39,10 @@ namespace Service.Services
                     Students.OrderBy(e => e.StudID);
                     break;
                 case StudentOrderFilters.StudentName:
-                    Students.OrderBy(e => e.Name);
+                    Students.OrderBy(e => e.getActiveNameByLanguage(e.NameAr, e.NameEn));
                     break;
                 case StudentOrderFilters.StudentDepartmentName:
-                    Students.OrderBy(e => e.Department.DName);
+                    Students.OrderBy(e => e.Department.getActiveNameByLanguage(e.NameAr, e.NameEn));
                     break;
                 default:
                     Students.OrderBy(e => e.StudID); break;
@@ -63,7 +63,7 @@ namespace Service.Services
 
         public bool isNameExist(string name)
         {
-            return repositry.GetAll().Where(e => e.Name == name).FirstOrDefault() == null;
+            return repositry.GetAll().Where(e => e.getActiveNameByLanguage(e.NameAr, e.NameEn) == name).FirstOrDefault() == null;
         }
 
         public Student Update(Student student)

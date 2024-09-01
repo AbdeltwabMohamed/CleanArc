@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj": {}
+    "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj": {}
   },
   "projects": {
-    "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj": {
+    "F:\\projects\\CleanArchitcutreApp\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj",
+        "projectUniqueName": "F:\\projects\\CleanArchitcutreApp\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\Abdeltwab\\.nuget\\packages\\",
-        "outputPath": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\obj\\",
+        "projectPath": "F:\\projects\\CleanArchitcutreApp\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
+        "outputPath": "F:\\projects\\CleanArchitcutreApp\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Abdeltwab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\server\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +45,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "ServiceStack.Interfaces": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,17 +71,17 @@
         }
       }
     },
-    "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj": {
+    "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj",
+        "projectUniqueName": "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj",
         "projectName": "Infrastracutre",
-        "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj",
-        "packagesPath": "C:\\Users\\Abdeltwab\\.nuget\\packages\\",
-        "outputPath": "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\obj\\",
+        "projectPath": "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj",
+        "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
+        "outputPath": "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Abdeltwab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\server\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,14 +89,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj": {
-                "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj"
+              "F:\\projects\\CleanArchitcutreApp\\Data\\Data.csproj": {
+                "projectPath": "F:\\projects\\CleanArchitcutreApp\\Data\\Data.csproj"
               }
             }
           }

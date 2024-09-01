@@ -2,8 +2,11 @@ using Core;
 using Core.GenralsError;
 using Infrastracutre;
 using Infrastracutre.Data;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using Service;
+using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +25,32 @@ builder.Services.AddInfraConfig()
     .AddCorConfig();
 
 
+#region Localization
+builder.Services.AddControllersWithViews();
+builder.Services.AddLocalization(opt =>
+{
+    opt.ResourcesPath = "";
+});
+
+builder.Services.Configure<RequestLocalizationOptions>(options =>
+{
+    List<CultureInfo> supportedCultures = new List<CultureInfo>
+    {
+            new CultureInfo("en-US"),
+            new CultureInfo("de-DE"),
+            new CultureInfo("fr-FR"),
+            new CultureInfo("ar-EG")
+    };
+
+    options.DefaultRequestCulture = new RequestCulture("ar-EG");
+    options.SupportedCultures = supportedCultures;
+
+});
+
+#endregion
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -31,6 +60,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseMiddleware<GeneralErrorHandller>();
+
+
+#region Localization Middleware
+var options = app.Services.GetService<IOptions<RequestLocalizationOptions>>();
+app.UseRequestLocalization(options.Value);
+#endregion
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

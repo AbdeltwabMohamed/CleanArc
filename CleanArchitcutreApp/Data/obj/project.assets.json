@@ -1,26 +1,54 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "ServiceStack.Interfaces/8.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/ServiceStack.Interfaces.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ServiceStack.Interfaces/8.3.0": {
+      "sha512": "prWUNgtvkr/JSDOlOd4+uA8WimTGByJxZUY2l1OSVcmKflGqCyRqrZMXa5HqA+wMzYJnm696Vv8cap3oIBT7AQ==",
+      "type": "package",
+      "path": "servicestack.interfaces/8.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/ServiceStack.Interfaces.dll",
+        "lib/net6.0/ServiceStack.Interfaces.dll",
+        "lib/net8.0/ServiceStack.Interfaces.dll",
+        "lib/netstandard2.0/ServiceStack.Interfaces.dll",
+        "servicestack.interfaces.8.3.0.nupkg.sha512",
+        "servicestack.interfaces.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "ServiceStack.Interfaces >= 8.3.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Abdeltwab\\.nuget\\packages\\": {}
+    "C:\\Users\\server\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj",
+      "projectUniqueName": "F:\\projects\\CleanArchitcutreApp\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj",
-      "packagesPath": "C:\\Users\\Abdeltwab\\.nuget\\packages\\",
-      "outputPath": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\obj\\",
+      "projectPath": "F:\\projects\\CleanArchitcutreApp\\Data\\Data.csproj",
+      "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
+      "outputPath": "F:\\projects\\CleanArchitcutreApp\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Abdeltwab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\server\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +56,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -50,6 +79,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "ServiceStack.Interfaces": {
+            "target": "Package",
+            "version": "[8.3.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

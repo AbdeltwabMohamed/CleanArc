@@ -1,10 +1,5 @@
 ﻿using Core.Features.Students.ViewModels;
 using Data.Entites;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Core.Profiles
 {
@@ -12,7 +7,8 @@ namespace Core.Profiles
     {
         public void MapSingleStudent()
         {
-            CreateMap<Student, SingleStudentVM>().ForMember(dest => dest.DepartmentName1, srs => srs.MapFrom(s => s.Department.DName));
+            CreateMap<Student, SingleStudentVM>().
+                ForMember(dest => dest.DepartmentName1, srs => srs.MapFrom(s => s.Department.getActiveNameByLanguage(s.NameAr, s.NameEn)));
         }
     }
 }

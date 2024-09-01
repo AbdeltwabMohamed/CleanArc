@@ -16,10 +16,19 @@
           "MediatR": "12.4.0",
           "Microsoft.AspNet.Mvc": "5.3.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "Microsoft.Extensions.Localization.Abstractions": "8.0.8",
           "Service": "1.0.0"
         },
         "runtime": {
           "Core.dll": {}
+        },
+        "resources": {
+          "AR/Core.resources.dll": {
+            "locale": "AR"
+          },
+          "EN/Core.resources.dll": {
+            "locale": "EN"
+          }
         }
       },
       "AutoMapper/12.0.1": {
@@ -630,6 +639,14 @@
           }
         }
       },
+      "Microsoft.Extensions.Localization.Abstractions/8.0.8": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.824.36908"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
@@ -858,6 +875,14 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
           "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "ServiceStack.Interfaces/8.3.0": {
+        "runtime": {
+          "lib/net8.0/ServiceStack.Interfaces.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "8.3.0.0"
+          }
         }
       },
       "System.AppContext/4.1.0": {
@@ -1345,6 +1370,9 @@
         }
       },
       "Data/1.0.0": {
+        "dependencies": {
+          "ServiceStack.Interfaces": "8.3.0"
+        },
         "runtime": {
           "Data.dll": {}
         }
@@ -1706,6 +1734,13 @@
       "path": "microsoft.extensions.hosting.abstractions/2.2.0",
       "hashPath": "microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512"
     },
+    "Microsoft.Extensions.Localization.Abstractions/8.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WYIsqP/A6dH/LWJznrvgoNPc7Q+CUJD0E78765GL3aonBtyFK1BKtPzBvvlnrr3SVqSO2r6xJCLgCEiCMG1gfA==",
+      "path": "microsoft.extensions.localization.abstractions/8.0.8",
+      "hashPath": "microsoft.extensions.localization.abstractions.8.0.8.nupkg.sha512"
+    },
     "Microsoft.Extensions.Logging/8.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1852,6 +1887,13 @@
       "sha512": "sha512-QfS/nQI7k/BLgmLrw7qm7YBoULEvgWnPI+cYsbfCVFTW8Aj+i8JhccxcFMu1RWms0YZzF+UHguNBK4Qn89e2Sg==",
       "path": "runtime.native.system/4.0.0",
       "hashPath": "runtime.native.system.4.0.0.nupkg.sha512"
+    },
+    "ServiceStack.Interfaces/8.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-prWUNgtvkr/JSDOlOd4+uA8WimTGByJxZUY2l1OSVcmKflGqCyRqrZMXa5HqA+wMzYJnm696Vv8cap3oIBT7AQ==",
+      "path": "servicestack.interfaces/8.3.0",
+      "hashPath": "servicestack.interfaces.8.3.0.nupkg.sha512"
     },
     "System.AppContext/4.1.0": {
       "type": "package",

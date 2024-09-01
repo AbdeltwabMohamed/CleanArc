@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "IbI5WKwJYqYJ/HnhMmC55UTdn02bnzASD7mgKLR5M0QSxRZSZC8mx/jIvqp7rAfRoeeR7JV6w/86V0lVnwuRcw==",
+  "dgSpecHash": "FfsEVMuPtmo=",
   "success": true,
-  "projectFilePath": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "F:\\projects\\CleanArchitcutreApp\\Data\\Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\server\\.nuget\\packages\\servicestack.interfaces\\8.3.0\\servicestack.interfaces.8.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

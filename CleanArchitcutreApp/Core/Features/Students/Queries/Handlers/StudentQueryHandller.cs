@@ -2,9 +2,11 @@
 using Core.Bases;
 using Core.Features.Students.Queries.Models;
 using Core.Features.Students.ViewModels;
+using Core.Resources;
 using Core.Wrappers;
 using Data.Entites;
 using MediatR;
+using Microsoft.Extensions.Localization;
 using Service.Interfaces;
 using System.Linq.Expressions;
 
@@ -17,11 +19,13 @@ namespace Core.Features.Students.Queries.Handlers
     {
         private readonly IStudentServices _studentServices;
         private readonly IMapper mapper;
+        private readonly IStringLocalizer<SharedResource> stringLocalizer;
 
-        public StudentQueryHandller(IStudentServices st, IMapper mapper)
+        public StudentQueryHandller(IStudentServices st, IMapper mapper, IStringLocalizer<SharedResource> stringLocalizer)
         {
             _studentServices = st;
             this.mapper = mapper;
+            this.stringLocalizer = stringLocalizer;
         }
         public async Task<Response<IEnumerable<StudentListVM>>> Handle(GetStudentList request, CancellationToken cancellationToken)
         {
@@ -42,7 +46,8 @@ namespace Core.Features.Students.Queries.Handlers
 
         public async Task<PaginatedResult<StudentListVM>> Handle(GetStudentListPaginated request, CancellationToken cancellationToken)
         {
-            Expression<Func<Student, StudentListVM>> expression = e => new StudentListVM(e.StudID, e.Name, e.Address, e.Phone, e.Department.DName);
+            Expression<Func<Student, StudentListVM>> expression = e => new StudentListVM
+            (e.StudID, e.getActiveNameByLanguage(e.NameAr, e.NameEn), e.Address, e.Phone, e.Department.getActiveNameByLanguage(e.NameAr, e.NameEn));
             var filterd = _studentServices.Filter(request.OrderBy, request.Search);
             var result = await filterd.Select(expression).ToPaginatedListAsync(request.PageNumber, request.PageSize);
             return result;

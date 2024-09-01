@@ -1,25 +1,31 @@
 ﻿using Data.Entites;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using SchoolProject.Data.Entities;
 
 namespace Infrastracutre.Data
 {
-    public class ApplicationDbContext :DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
-            
+
         }
 
         public DbSet<Student> Students { get; set; }
-        public DbSet<Department> Departments{ get; set; }
-        public DbSet<Subject> subjects{ get; set; }
-        public DbSet<DepartmetSubject> departmetSubjects{ get; set; }
-        public DbSet<StudentSubject> studentSubjects{ get; set; }
-        
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<Subject> subjects { get; set; }
+        public DbSet<DepartmetSubject> departmetSubjects { get; set; }
+        public DbSet<StudentSubject> studentSubjects { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<DepartmetSubject>().HasKey(e => new { e.SubID, e.DID });
+            modelBuilder.Entity<Ins_Subject>().HasKey(e => new { e.SubId, e.InsId });
+            modelBuilder.Entity<StudentSubject>().HasKey(e => new { e.SubID, e.StudID });
+            modelBuilder.Entity<Department>().HasOne(e => e.Instructor).WithOne(e => e.department);
+
+            base.OnModelCreating(modelBuilder);
+
+        }
     }
 }

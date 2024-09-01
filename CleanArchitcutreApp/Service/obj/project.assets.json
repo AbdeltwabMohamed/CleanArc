@@ -595,6 +595,15 @@
           }
         }
       },
+      "ServiceStack.Interfaces/8.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/ServiceStack.Interfaces.dll": {}
+        }
+      },
       "System.Configuration.ConfigurationManager/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -1049,6 +1058,9 @@
       "Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "ServiceStack.Interfaces": "8.3.0"
+        },
         "compile": {
           "bin/placeholder/Data.dll": {}
         },
@@ -2002,6 +2014,21 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "ServiceStack.Interfaces/8.3.0": {
+      "sha512": "prWUNgtvkr/JSDOlOd4+uA8WimTGByJxZUY2l1OSVcmKflGqCyRqrZMXa5HqA+wMzYJnm696Vv8cap3oIBT7AQ==",
+      "type": "package",
+      "path": "servicestack.interfaces/8.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/ServiceStack.Interfaces.dll",
+        "lib/net6.0/ServiceStack.Interfaces.dll",
+        "lib/net8.0/ServiceStack.Interfaces.dll",
+        "lib/netstandard2.0/ServiceStack.Interfaces.dll",
+        "servicestack.interfaces.8.3.0.nupkg.sha512",
+        "servicestack.interfaces.nuspec"
+      ]
+    },
     "System.Configuration.ConfigurationManager/6.0.1": {
       "sha512": "jXw9MlUu/kRfEU0WyTptAVueupqIeE3/rl0EZDMlf8pcvJnitQ8HeVEp69rZdaStXwTV72boi/Bhw8lOeO+U2w==",
       "type": "package",
@@ -2914,19 +2941,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Abdeltwab\\.nuget\\packages\\": {}
+    "C:\\Users\\server\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CleanArc\\CleanArchitcutreApp\\Service\\Service.csproj",
+      "projectUniqueName": "F:\\projects\\CleanArchitcutreApp\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Service\\Service.csproj",
-      "packagesPath": "C:\\Users\\Abdeltwab\\.nuget\\packages\\",
-      "outputPath": "D:\\CleanArc\\CleanArchitcutreApp\\Service\\obj\\",
+      "projectPath": "F:\\projects\\CleanArchitcutreApp\\Service\\Service.csproj",
+      "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
+      "outputPath": "F:\\projects\\CleanArchitcutreApp\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Abdeltwab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\server\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2934,17 +2961,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj": {
-              "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj"
+            "F:\\projects\\CleanArchitcutreApp\\Data\\Data.csproj": {
+              "projectPath": "F:\\projects\\CleanArchitcutreApp\\Data\\Data.csproj"
             },
-            "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj": {
-              "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj"
+            "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj": {
+              "projectPath": "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj"
             }
           }
         }

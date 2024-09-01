@@ -684,6 +684,14 @@
           }
         }
       },
+      "ServiceStack.Interfaces/8.3.0": {
+        "runtime": {
+          "lib/net8.0/ServiceStack.Interfaces.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "8.3.0.0"
+          }
+        }
+      },
       "System.CodeDom/4.4.0": {
         "runtime": {
           "lib/netstandard2.0/System.CodeDom.dll": {
@@ -968,6 +976,9 @@
         }
       },
       "Data/1.0.0": {
+        "dependencies": {
+          "ServiceStack.Interfaces": "8.3.0"
+        },
         "runtime": {
           "Data.dll": {}
         }
@@ -1287,6 +1298,13 @@
       "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "ServiceStack.Interfaces/8.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-prWUNgtvkr/JSDOlOd4+uA8WimTGByJxZUY2l1OSVcmKflGqCyRqrZMXa5HqA+wMzYJnm696Vv8cap3oIBT7AQ==",
+      "path": "servicestack.interfaces/8.3.0",
+      "hashPath": "servicestack.interfaces.8.3.0.nupkg.sha512"
     },
     "System.CodeDom/4.4.0": {
       "type": "package",

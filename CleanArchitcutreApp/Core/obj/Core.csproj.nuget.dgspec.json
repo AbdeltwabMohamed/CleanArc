@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CleanArc\\CleanArchitcutreApp\\Core\\Core.csproj": {}
+    "F:\\projects\\CleanArchitcutreApp\\Core\\Core.csproj": {}
   },
   "projects": {
-    "D:\\CleanArc\\CleanArchitcutreApp\\Core\\Core.csproj": {
+    "F:\\projects\\CleanArchitcutreApp\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CleanArc\\CleanArchitcutreApp\\Core\\Core.csproj",
+        "projectUniqueName": "F:\\projects\\CleanArchitcutreApp\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Abdeltwab\\.nuget\\packages\\",
-        "outputPath": "D:\\CleanArc\\CleanArchitcutreApp\\Core\\obj\\",
+        "projectPath": "F:\\projects\\CleanArchitcutreApp\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
+        "outputPath": "F:\\projects\\CleanArchitcutreApp\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Abdeltwab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\server\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,20 +22,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj": {
-                "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj"
+              "F:\\projects\\CleanArchitcutreApp\\Data\\Data.csproj": {
+                "projectPath": "F:\\projects\\CleanArchitcutreApp\\Data\\Data.csproj"
               },
-              "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj": {
-                "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj"
+              "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj": {
+                "projectPath": "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj"
               },
-              "D:\\CleanArc\\CleanArchitcutreApp\\Service\\Service.csproj": {
-                "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Service\\Service.csproj"
+              "F:\\projects\\CleanArchitcutreApp\\Service\\Service.csproj": {
+                "projectPath": "F:\\projects\\CleanArchitcutreApp\\Service\\Service.csproj"
               }
             }
           }
@@ -78,6 +79,10 @@
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.2.5, )"
+            },
+            "Microsoft.Extensions.Localization.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.8, )"
             }
           },
           "imports": [
@@ -100,17 +105,17 @@
         }
       }
     },
-    "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj": {
+    "F:\\projects\\CleanArchitcutreApp\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj",
+        "projectUniqueName": "F:\\projects\\CleanArchitcutreApp\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\Abdeltwab\\.nuget\\packages\\",
-        "outputPath": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\obj\\",
+        "projectPath": "F:\\projects\\CleanArchitcutreApp\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
+        "outputPath": "F:\\projects\\CleanArchitcutreApp\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Abdeltwab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\server\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -118,6 +123,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -140,6 +146,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "ServiceStack.Interfaces": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -160,17 +172,17 @@
         }
       }
     },
-    "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj": {
+    "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj",
+        "projectUniqueName": "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj",
         "projectName": "Infrastracutre",
-        "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj",
-        "packagesPath": "C:\\Users\\Abdeltwab\\.nuget\\packages\\",
-        "outputPath": "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\obj\\",
+        "projectPath": "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj",
+        "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
+        "outputPath": "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Abdeltwab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\server\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -178,14 +190,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj": {
-                "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj"
+              "F:\\projects\\CleanArchitcutreApp\\Data\\Data.csproj": {
+                "projectPath": "F:\\projects\\CleanArchitcutreApp\\Data\\Data.csproj"
               }
             }
           }
@@ -244,17 +257,17 @@
         }
       }
     },
-    "D:\\CleanArc\\CleanArchitcutreApp\\Service\\Service.csproj": {
+    "F:\\projects\\CleanArchitcutreApp\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CleanArc\\CleanArchitcutreApp\\Service\\Service.csproj",
+        "projectUniqueName": "F:\\projects\\CleanArchitcutreApp\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\Abdeltwab\\.nuget\\packages\\",
-        "outputPath": "D:\\CleanArc\\CleanArchitcutreApp\\Service\\obj\\",
+        "projectPath": "F:\\projects\\CleanArchitcutreApp\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\server\\.nuget\\packages\\",
+        "outputPath": "F:\\projects\\CleanArchitcutreApp\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Abdeltwab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\server\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -262,17 +275,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj": {
-                "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Data\\Data.csproj"
+              "F:\\projects\\CleanArchitcutreApp\\Data\\Data.csproj": {
+                "projectPath": "F:\\projects\\CleanArchitcutreApp\\Data\\Data.csproj"
               },
-              "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj": {
-                "projectPath": "D:\\CleanArc\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj"
+              "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj": {
+                "projectPath": "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj"
               }
             }
           }
