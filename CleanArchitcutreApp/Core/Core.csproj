@@ -22,4 +22,10 @@
     <PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="8.0.8" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Departments\Commands\Models\" />
+    <Folder Include="Features\Departments\Commands\Handller\" />
+    <Folder Include="Features\Departments\Commands\Validations\" />
+  </ItemGroup>
+
 </Project>

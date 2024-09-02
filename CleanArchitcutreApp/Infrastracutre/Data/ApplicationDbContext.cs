@@ -22,7 +22,8 @@ namespace Infrastracutre.Data
             modelBuilder.Entity<DepartmetSubject>().HasKey(e => new { e.SubID, e.DID });
             modelBuilder.Entity<Ins_Subject>().HasKey(e => new { e.SubId, e.InsId });
             modelBuilder.Entity<StudentSubject>().HasKey(e => new { e.SubID, e.StudID });
-            modelBuilder.Entity<Department>().HasOne(e => e.Instructor).WithOne(e => e.department);
+            modelBuilder.Entity<Department>().HasOne(e => e.Instructor).WithOne(e => e.departmentManager);
+            modelBuilder.Entity<Instructor>().HasOne(e => e.department).WithMany(e => e.Instructors).HasForeignKey(e => e.DID);
 
             base.OnModelCreating(modelBuilder);
 

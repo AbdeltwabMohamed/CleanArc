@@ -3,60 +3,68 @@
   "WorkspaceRootPath": "F:\\projects\\CleanArchitcutreApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2A180AC-8C3E-4F3C-AF68-61D130A68F8D}|Infrastracutre\\Infrastracutre.csproj|f:\\projects\\cleanarchitcutreapp\\infrastracutre\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A180AC-8C3E-4F3C-AF68-61D130A68F8D}|Infrastracutre\\Infrastracutre.csproj|solutionrelative:infrastracutre\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2A180AC-8C3E-4F3C-AF68-61D130A68F8D}|Infrastracutre\\Infrastracutre.csproj|f:\\projects\\cleanarchitcutreapp\\infrastracutre\\infrastracureconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A180AC-8C3E-4F3C-AF68-61D130A68F8D}|Infrastracutre\\Infrastracutre.csproj|solutionrelative:infrastracutre\\infrastracureconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF05268F-2B12-4654-9786-09251F854DA9}|Data\\Data.csproj|f:\\projects\\cleanarchitcutreapp\\data\\entites\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF05268F-2B12-4654-9786-09251F854DA9}|Data\\Data.csproj|solutionrelative:data\\entites\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2A180AC-8C3E-4F3C-AF68-61D130A68F8D}|Infrastracutre\\Infrastracutre.csproj|f:\\projects\\cleanarchitcutreapp\\infrastracutre\\infrastracutre.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B2A180AC-8C3E-4F3C-AF68-61D130A68F8D}|Infrastracutre\\Infrastracutre.csproj|solutionrelative:infrastracutre\\infrastracutre.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF05268F-2B12-4654-9786-09251F854DA9}|Data\\Data.csproj|f:\\projects\\cleanarchitcutreapp\\data\\entites\\ins_subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF05268F-2B12-4654-9786-09251F854DA9}|Data\\Data.csproj|solutionrelative:data\\entites\\ins_subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CA54A1D-6D0D-4D46-8119-99FCC20071CB}|Service\\Service.csproj|f:\\projects\\cleanarchitcutreapp\\service\\servicesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA54A1D-6D0D-4D46-8119-99FCC20071CB}|Service\\Service.csproj|solutionrelative:service\\servicesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF05268F-2B12-4654-9786-09251F854DA9}|Data\\Data.csproj|f:\\projects\\cleanarchitcutreapp\\data\\entites\\departmentsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF05268F-2B12-4654-9786-09251F854DA9}|Data\\Data.csproj|solutionrelative:data\\entites\\departmentsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E46D1ECF-8A89-4469-90F4-3E7A807D634A}|CleanArchitcutreApp\\CleanArchitcutreAppAPI.csproj|f:\\projects\\cleanarchitcutreapp\\cleanarchitcutreapp\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46D1ECF-8A89-4469-90F4-3E7A807D634A}|CleanArchitcutreApp\\CleanArchitcutreAppAPI.csproj|solutionrelative:cleanarchitcutreapp\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF05268F-2B12-4654-9786-09251F854DA9}|Data\\Data.csproj|f:\\projects\\cleanarchitcutreapp\\data\\entites\\instructors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF05268F-2B12-4654-9786-09251F854DA9}|Data\\Data.csproj|solutionrelative:data\\entites\\instructors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E778A1F6-BC60-4493-92A8-E40BE453841E}|Core\\Core.csproj|f:\\projects\\cleanarchitcutreapp\\core\\features\\departments\\query\\handller\\departmentqueryhandller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E778A1F6-BC60-4493-92A8-E40BE453841E}|Core\\Core.csproj|solutionrelative:core\\features\\departments\\query\\handller\\departmentqueryhandller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF05268F-2B12-4654-9786-09251F854DA9}|Data\\Data.csproj|f:\\projects\\cleanarchitcutreapp\\data\\entites\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF05268F-2B12-4654-9786-09251F854DA9}|Data\\Data.csproj|solutionrelative:data\\entites\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E778A1F6-BC60-4493-92A8-E40BE453841E}|Core\\Core.csproj|f:\\projects\\cleanarchitcutreapp\\core\\profiles\\departmentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E778A1F6-BC60-4493-92A8-E40BE453841E}|Core\\Core.csproj|solutionrelative:core\\profiles\\departmentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF05268F-2B12-4654-9786-09251F854DA9}|Data\\Data.csproj|f:\\projects\\cleanarchitcutreapp\\data\\entites\\studentsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF05268F-2B12-4654-9786-09251F854DA9}|Data\\Data.csproj|solutionrelative:data\\entites\\studentsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E778A1F6-BC60-4493-92A8-E40BE453841E}|Core\\Core.csproj|f:\\projects\\cleanarchitcutreapp\\core\\profiles\\studentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E778A1F6-BC60-4493-92A8-E40BE453841E}|Core\\Core.csproj|solutionrelative:core\\profiles\\studentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF05268F-2B12-4654-9786-09251F854DA9}|Data\\Data.csproj|f:\\projects\\cleanarchitcutreapp\\data\\entites\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF05268F-2B12-4654-9786-09251F854DA9}|Data\\Data.csproj|solutionrelative:data\\entites\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E778A1F6-BC60-4493-92A8-E40BE453841E}|Core\\Core.csproj|f:\\projects\\cleanarchitcutreapp\\core\\automapper\\departmentsmapping\\getdepartmentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E778A1F6-BC60-4493-92A8-E40BE453841E}|Core\\Core.csproj|solutionrelative:core\\automapper\\departmentsmapping\\getdepartmentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA54A1D-6D0D-4D46-8119-99FCC20071CB}|Service\\Service.csproj|f:\\projects\\cleanarchitcutreapp\\service\\services\\departmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA54A1D-6D0D-4D46-8119-99FCC20071CB}|Service\\Service.csproj|solutionrelative:service\\services\\departmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A180AC-8C3E-4F3C-AF68-61D130A68F8D}|Infrastracutre\\Infrastracutre.csproj|f:\\projects\\cleanarchitcutreapp\\infrastracutre\\interfaces\\idepartmentrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A180AC-8C3E-4F3C-AF68-61D130A68F8D}|Infrastracutre\\Infrastracutre.csproj|solutionrelative:infrastracutre\\interfaces\\idepartmentrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CA54A1D-6D0D-4D46-8119-99FCC20071CB}|Service\\Service.csproj|f:\\projects\\cleanarchitcutreapp\\service\\interfaces\\idepartmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA54A1D-6D0D-4D46-8119-99FCC20071CB}|Service\\Service.csproj|solutionrelative:service\\interfaces\\idepartmentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5CA54A1D-6D0D-4D46-8119-99FCC20071CB}|Service\\Service.csproj|f:\\projects\\cleanarchitcutreapp\\service\\services\\studentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CA54A1D-6D0D-4D46-8119-99FCC20071CB}|Service\\Service.csproj|solutionrelative:service\\services\\studentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E778A1F6-BC60-4493-92A8-E40BE453841E}|Core\\Core.csproj|f:\\projects\\cleanarchitcutreapp\\core\\automapper\\getstudentbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E778A1F6-BC60-4493-92A8-E40BE453841E}|Core\\Core.csproj|solutionrelative:core\\automapper\\getstudentbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CA54A1D-6D0D-4D46-8119-99FCC20071CB}|Service\\Service.csproj|f:\\projects\\cleanarchitcutreapp\\service\\interfaces\\istudentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CA54A1D-6D0D-4D46-8119-99FCC20071CB}|Service\\Service.csproj|solutionrelative:service\\interfaces\\istudentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E778A1F6-BC60-4493-92A8-E40BE453841E}|Core\\Core.csproj|f:\\projects\\cleanarchitcutreapp\\core\\features\\students\\queries\\handlers\\studentqueryhandller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E778A1F6-BC60-4493-92A8-E40BE453841E}|Core\\Core.csproj|solutionrelative:core\\features\\students\\queries\\handlers\\studentqueryhandller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E46D1ECF-8A89-4469-90F4-3E7A807D634A}|CleanArchitcutreApp\\CleanArchitcutreAppAPI.csproj|f:\\projects\\cleanarchitcutreapp\\cleanarchitcutreapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46D1ECF-8A89-4469-90F4-3E7A807D634A}|CleanArchitcutreApp\\CleanArchitcutreAppAPI.csproj|solutionrelative:cleanarchitcutreapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E778A1F6-BC60-4493-92A8-E40BE453841E}|Core\\Core.csproj|f:\\projects\\cleanarchitcutreapp\\core\\automapper\\getliststudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E778A1F6-BC60-4493-92A8-E40BE453841E}|Core\\Core.csproj|solutionrelative:core\\automapper\\getliststudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E778A1F6-BC60-4493-92A8-E40BE453841E}|Core\\Core.csproj|f:\\projects\\cleanarchitcutreapp\\core\\features\\departments\\query\\models\\getdepartmentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E778A1F6-BC60-4493-92A8-E40BE453841E}|Core\\Core.csproj|solutionrelative:core\\features\\departments\\query\\models\\getdepartmentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E778A1F6-BC60-4493-92A8-E40BE453841E}|Core\\Core.csproj|f:\\projects\\cleanarchitcutreapp\\core\\features\\students\\commands\\handlers\\studentcommandhandller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E778A1F6-BC60-4493-92A8-E40BE453841E}|Core\\Core.csproj|solutionrelative:core\\features\\students\\commands\\handlers\\studentcommandhandller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E46D1ECF-8A89-4469-90F4-3E7A807D634A}|CleanArchitcutreApp\\CleanArchitcutreAppAPI.csproj|f:\\projects\\cleanarchitcutreapp\\cleanarchitcutreapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46D1ECF-8A89-4469-90F4-3E7A807D634A}|CleanArchitcutreApp\\CleanArchitcutreAppAPI.csproj|solutionrelative:cleanarchitcutreapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF05268F-2B12-4654-9786-09251F854DA9}|Data\\Data.csproj|f:\\projects\\cleanarchitcutreapp\\data\\entites\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF05268F-2B12-4654-9786-09251F854DA9}|Data\\Data.csproj|solutionrelative:data\\entites\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,188 +74,216 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Infrastracutre\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Infrastracutre\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBgAAABjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T14:55:32.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 15,
               "Title": "Department.cs",
               "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Data\\Entites\\Department.cs",
               "RelativeDocumentMoniker": "Data\\Entites\\Department.cs",
               "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Data\\Entites\\Department.cs",
               "RelativeToolTip": "Data\\Entites\\Department.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAUwB4AAAAtAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBcAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-01T14:52:45.34Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GetStudentById.cs",
-              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Core\\AutoMapper\\GetStudentById.cs",
-              "RelativeDocumentMoniker": "Core\\AutoMapper\\GetStudentById.cs",
-              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Core\\AutoMapper\\GetStudentById.cs",
-              "RelativeToolTip": "Core\\AutoMapper\\GetStudentById.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "DocumentIndex": 14,
+              "Title": "GetDepartmentsList.cs",
+              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Core\\Features\\Departments\\Query\\Models\\GetDepartmentsList.cs",
+              "RelativeDocumentMoniker": "Core\\Features\\Departments\\Query\\Models\\GetDepartmentsList.cs",
+              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Core\\Features\\Departments\\Query\\Models\\GetDepartmentsList.cs",
+              "RelativeToolTip": "Core\\Features\\Departments\\Query\\Models\\GetDepartmentsList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T14:43:34.519Z",
+              "WhenOpened": "2024-09-02T15:07:01.03Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "StudentServices.cs",
-              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Service\\Services\\StudentServices.cs",
-              "RelativeDocumentMoniker": "Service\\Services\\StudentServices.cs",
-              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Service\\Services\\StudentServices.cs",
-              "RelativeToolTip": "Service\\Services\\StudentServices.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAgwCwAAABhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T14:42:11.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Subject.cs",
-              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Data\\Entites\\Subject.cs",
-              "RelativeDocumentMoniker": "Data\\Entites\\Subject.cs",
-              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Data\\Entites\\Subject.cs",
-              "RelativeToolTip": "Data\\Entites\\Subject.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T14:41:21.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Student.cs",
-              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Data\\Entites\\Student.cs",
-              "RelativeDocumentMoniker": "Data\\Entites\\Student.cs",
-              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Data\\Entites\\Student.cs",
-              "RelativeToolTip": "Data\\Entites\\Student.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T14:41:01.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Instructors.cs",
-              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Data\\Entites\\Instructors.cs",
-              "RelativeDocumentMoniker": "Data\\Entites\\Instructors.cs",
-              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Data\\Entites\\Instructors.cs",
-              "RelativeToolTip": "Data\\Entites\\Instructors.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAA4wCAAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T13:46:28.098Z",
+              "DocumentIndex": 1,
+              "Title": "Infrastracutre",
+              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj",
+              "RelativeDocumentMoniker": "Infrastracutre\\Infrastracutre.csproj",
+              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\Infrastracutre.csproj",
+              "RelativeToolTip": "Infrastracutre\\Infrastracutre.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-02T15:32:55.878Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Ins_Subject.cs",
-              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Data\\Entites\\Ins_Subject.cs",
-              "RelativeDocumentMoniker": "Data\\Entites\\Ins_Subject.cs",
-              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Data\\Entites\\Ins_Subject.cs",
-              "RelativeToolTip": "Data\\Entites\\Ins_Subject.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Title": "ServicesConfiguration.cs",
+              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Service\\ServicesConfiguration.cs",
+              "RelativeDocumentMoniker": "Service\\ServicesConfiguration.cs",
+              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Service\\ServicesConfiguration.cs",
+              "RelativeToolTip": "Service\\ServicesConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T13:48:48.018Z",
+              "WhenOpened": "2024-09-02T15:31:08.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StudentSubject.cs",
-              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Data\\Entites\\StudentSubject.cs",
-              "RelativeDocumentMoniker": "Data\\Entites\\StudentSubject.cs",
-              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Data\\Entites\\StudentSubject.cs",
-              "RelativeToolTip": "Data\\Entites\\StudentSubject.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "InfrastracureConfiguration.cs",
+              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\InfrastracureConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastracutre\\InfrastracureConfiguration.cs",
+              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\InfrastracureConfiguration.cs",
+              "RelativeToolTip": "Infrastracutre\\InfrastracureConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T13:45:10.29Z",
+              "WhenOpened": "2024-09-02T15:30:38.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DepartmentSubject.cs",
-              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Data\\Entites\\DepartmentSubject.cs",
-              "RelativeDocumentMoniker": "Data\\Entites\\DepartmentSubject.cs",
-              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Data\\Entites\\DepartmentSubject.cs",
-              "RelativeToolTip": "Data\\Entites\\DepartmentSubject.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "IDepartmentRepositry.cs",
+              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\Interfaces\\IDepartmentRepositry.cs",
+              "RelativeDocumentMoniker": "Infrastracutre\\Interfaces\\IDepartmentRepositry.cs",
+              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Infrastracutre\\Interfaces\\IDepartmentRepositry.cs",
+              "RelativeToolTip": "Infrastracutre\\Interfaces\\IDepartmentRepositry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T13:42:18.473Z",
+              "WhenOpened": "2024-09-02T15:23:44.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "StudentQueryHandller.cs",
-              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Core\\Features\\Students\\Queries\\Handlers\\StudentQueryHandller.cs",
-              "RelativeDocumentMoniker": "Core\\Features\\Students\\Queries\\Handlers\\StudentQueryHandller.cs",
-              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Core\\Features\\Students\\Queries\\Handlers\\StudentQueryHandller.cs",
-              "RelativeToolTip": "Core\\Features\\Students\\Queries\\Handlers\\StudentQueryHandller.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAgwDEAAACUAAAA",
+              "Title": "IDepartmentServices.cs",
+              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Service\\Interfaces\\IDepartmentServices.cs",
+              "RelativeDocumentMoniker": "Service\\Interfaces\\IDepartmentServices.cs",
+              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Service\\Interfaces\\IDepartmentServices.cs",
+              "RelativeToolTip": "Service\\Interfaces\\IDepartmentServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T14:43:55.944Z",
+              "WhenOpened": "2024-09-02T15:23:00.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "GetListStudent.cs",
-              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Core\\AutoMapper\\GetListStudent.cs",
-              "RelativeDocumentMoniker": "Core\\AutoMapper\\GetListStudent.cs",
-              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Core\\AutoMapper\\GetListStudent.cs",
-              "RelativeToolTip": "Core\\AutoMapper\\GetListStudent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Title": "StudentServices.cs",
+              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Service\\Services\\StudentServices.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\StudentServices.cs",
+              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Service\\Services\\StudentServices.cs",
+              "RelativeToolTip": "Service\\Services\\StudentServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T14:43:10.596Z",
+              "WhenOpened": "2024-09-02T14:57:24.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "StudentCommandHandller.cs",
-              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Core\\Features\\Students\\Commands\\Handlers\\StudentCommandHandller.cs",
-              "RelativeDocumentMoniker": "Core\\Features\\Students\\Commands\\Handlers\\StudentCommandHandller.cs",
-              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Core\\Features\\Students\\Commands\\Handlers\\StudentCommandHandller.cs",
-              "RelativeToolTip": "Core\\Features\\Students\\Commands\\Handlers\\StudentCommandHandller.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA1wB0AAAAAAAAA",
+              "Title": "IStudentServices.cs",
+              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Service\\Interfaces\\IStudentServices.cs",
+              "RelativeDocumentMoniker": "Service\\Interfaces\\IStudentServices.cs",
+              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Service\\Interfaces\\IStudentServices.cs",
+              "RelativeToolTip": "Service\\Interfaces\\IStudentServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T12:48:06.349Z",
+              "WhenOpened": "2024-09-02T14:57:21.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DepartmentServices.cs",
+              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Service\\Services\\DepartmentServices.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\DepartmentServices.cs",
+              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Service\\Services\\DepartmentServices.cs",
+              "RelativeToolTip": "Service\\Services\\DepartmentServices.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAjwBAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T14:56:59.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartmentQueryHandller.cs",
+              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Core\\Features\\Departments\\Query\\Handller\\DepartmentQueryHandller.cs",
+              "RelativeDocumentMoniker": "Core\\Features\\Departments\\Query\\Handller\\DepartmentQueryHandller.cs",
+              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Core\\Features\\Departments\\Query\\Handller\\DepartmentQueryHandller.cs",
+              "RelativeToolTip": "Core\\Features\\Departments\\Query\\Handller\\DepartmentQueryHandller.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAArwBcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T15:09:03.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\CleanArchitcutreApp\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "CleanArchitcutreApp\\Controllers\\DepartmentController.cs",
+              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\CleanArchitcutreApp\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "CleanArchitcutreApp\\Controllers\\DepartmentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T15:19:24.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DepartmentProfile.cs",
+              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Core\\Profiles\\DepartmentProfile.cs",
+              "RelativeDocumentMoniker": "Core\\Profiles\\DepartmentProfile.cs",
+              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Core\\Profiles\\DepartmentProfile.cs",
+              "RelativeToolTip": "Core\\Profiles\\DepartmentProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T15:26:32.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentProfile.cs",
+              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Core\\Profiles\\StudentProfile.cs",
+              "RelativeDocumentMoniker": "Core\\Profiles\\StudentProfile.cs",
+              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Core\\Profiles\\StudentProfile.cs",
+              "RelativeToolTip": "Core\\Profiles\\StudentProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T15:27:45.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\CleanArchitcutreApp\\Program.cs",
-              "RelativeDocumentMoniker": "CleanArchitcutreApp\\Program.cs",
-              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\CleanArchitcutreApp\\Program.cs",
-              "RelativeToolTip": "CleanArchitcutreApp\\Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACwAAAA9AAAA",
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\CleanArchitcutreApp\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "CleanArchitcutreApp\\Controllers\\StudentController.cs",
+              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\CleanArchitcutreApp\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "CleanArchitcutreApp\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T12:43:32.3Z",
+              "WhenOpened": "2024-09-02T15:18:30.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GetDepartmentList.cs",
+              "DocumentMoniker": "F:\\projects\\CleanArchitcutreApp\\Core\\AutoMapper\\DepartmentsMapping\\GetDepartmentList.cs",
+              "RelativeDocumentMoniker": "Core\\AutoMapper\\DepartmentsMapping\\GetDepartmentList.cs",
+              "ToolTip": "F:\\projects\\CleanArchitcutreApp\\Core\\AutoMapper\\DepartmentsMapping\\GetDepartmentList.cs",
+              "RelativeToolTip": "Core\\AutoMapper\\DepartmentsMapping\\GetDepartmentList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T15:14:46.356Z",
               "EditorCaption": ""
             }
           ]

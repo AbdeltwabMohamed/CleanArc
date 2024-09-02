@@ -1,11 +1,6 @@
 ﻿using Infrastracutre.Interfaces;
 using Infrastracutre.Repos;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Infrastracutre
 {
@@ -13,8 +8,9 @@ namespace Infrastracutre
     {
         public static IServiceCollection AddInfraConfig(this IServiceCollection services)
         {
-            
-            services.AddTransient(typeof(IBaseRepositry<>),typeof(BaseRepositry<>));
+
+            services.AddTransient(typeof(IBaseRepositry<>), typeof(BaseRepositry<>));
+            services.AddTransient<IDepartmentRepositry, DepartmentRepositry>();
 
             return services;
         }
