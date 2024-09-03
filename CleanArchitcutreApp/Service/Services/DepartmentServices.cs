@@ -1,14 +1,14 @@
 ﻿using Data.Entites;
-using Infrastracutre.Repos;
+using Infrastracutre.Interfaces;
 using Service.Interfaces;
 
 namespace Service.Services
 {
     public class DepartmentServices : IDepartmentServices
     {
-        private readonly DepartmentRepositry departmentRepositry;
+        private readonly IDepartmentRepositry departmentRepositry;
 
-        public DepartmentServices(DepartmentRepositry departmentRepositry)
+        public DepartmentServices(IDepartmentRepositry departmentRepositry)
         {
             this.departmentRepositry = departmentRepositry;
         }

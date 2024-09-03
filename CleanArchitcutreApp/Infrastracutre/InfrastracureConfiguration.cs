@@ -10,7 +10,7 @@ namespace Infrastracutre
         {
 
             services.AddTransient(typeof(IBaseRepositry<>), typeof(BaseRepositry<>));
-            services.AddTransient<IDepartmentRepositry, DepartmentRepositry>();
+            services.AddTransient(typeof(IDepartmentRepositry), typeof(DepartmentRepositry));
 
             return services;
         }

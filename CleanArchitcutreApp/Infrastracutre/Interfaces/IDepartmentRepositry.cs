@@ -1,6 +1,8 @@
-﻿namespace Infrastracutre.Interfaces
+﻿using Data.Entites;
+
+namespace Infrastracutre.Interfaces
 {
-    public interface IDepartmentRepositry
+    public interface IDepartmentRepositry : IBaseRepositry<Department>
     {
     }
 }
