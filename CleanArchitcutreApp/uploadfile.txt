@@ -1,0 +1,115 @@
+ public bool UploadFiles(FileData data)
+ {
+   string HttpPath = "";
+   if (!string.IsNullOrWhiteSpace(ConfigurationManager.AppSettings["HttpPath"]))
+     HttpPath = ConfigurationManager.AppSettings["HttpPath"]?.ToString();
+   try
+   {
+     var client = new RestClient(HttpPath + "UploadFile");
+     ServicePointManager.Expect100Continue = true;
+     ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+     client.Timeout = -1;
+     var request = new RestRequest(Method.POST);
+     request.AddHeader("Content-Type", "application/json");
+     string reques = JsonConvert.SerializeObject(data);
+     request.AddParameter("application/json", reques, ParameterType.RequestBody);
+     request.AddParameter("Authorization", "UmVhbFN0YXRlQGVpcy5jb206QmFzaGVpczEyMw==", ParameterType.HttpHeader);
+     IRestResponse response = client.Execute(request);
+     if (response.Content.Contains("true"))
+       return true;
+     else
+       return false;
+   }
+   catch (Exception ex)
+   {
+     LogExceptionError(ex);
+
+     return false;
+   }
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+public HttpResponseMessage GetInstanceAttachment(GetInstanceAttachment_ViewModel vm)
+{
+    try
+    {
+        var row = _INSTANCE_ATTCHMENTSRepository.GetAll().Where(_ => _.INSTANCEID == vm.INSTANCEID && _.ATTACHMENTID == vm.Attachments.ATTACHMENTID).FirstOrDefault();
+        if (row == null)
+        {
+            return Request.CreateErrorResponse(HttpStatusCode.NotFound, "عفوا هذا الملف غير موجود");
+        }
+        else
+        {
+            //string path = ConfigurationManager.AppSettings["FtpArchive"];
+            //string part_credentials;
+            //string[] host;
+            //string[] usernameNPass;
+            //string[] extractedPath;
+
+            //extractedPath = path.Split('@');
+            //part_credentials = extractedPath[0].Substring(6, extractedPath[0].Length - 6);
+            //usernameNPass = part_credentials.Split(':');
+            //host = extractedPath[1].Split('/');
+
+            //extractedPath = path.Split('@');
+            //part_credentials = extractedPath[0].Substring(6, extractedPath[0].Length - 6);
+            //usernameNPass = part_credentials.Split(':');
+            //host = extractedPath[1].Split('/');
+
+            //FluentFTP.FtpClient fclient = new FluentFTP.FtpClient();
+            //fclient.Credentials = new NetworkCredential(usernameNPass[0], usernameNPass[1]);
+            //fclient.Host = host[0];
+            //fclient.Connect();
+            var item = vm.Attachments;
+
+            var child = _DOCUMENTS_CHILDS_repo.GetAll().Where(_ => _.DocId == row.ARCHIVE_DOC_ID && _.ORGID == row.ORGID).FirstOrDefault();
+            //if (child.FormatId != null)
+            //{
+            //    var deleted_format_id = child.FormatId;
+            //    var format = _Formats_repo.GetAll().FirstOrDefault(_ => _.FORMAT_ID == deleted_format_id).FORMAT;
+            //    var deleted_path = row.ORGID + "/Att_" + vm.INSTANCEID + "_" + row.ARCHIVE_DOC_ID + "_1." + format;
+            //    fclient.DeleteFile(deleted_path);
+            //}
+
+            var format_id = _Formats_repo.GetAll().Where(_ => _.FORMAT == item.Extension).Select(_ => _.FORMAT_ID).FirstOrDefault();
+            child.FormatId = Convert.ToInt32(format_id);
+            _DOCUMENTS_CHILDS_repo.Edit(child);
+            var buffer = item.Stream.Split(',')[1];
+            byte[] bytes = Convert.FromBase64String(buffer);
+            var file_path = "portalnuca/" + $@"{row.ORGID}/{child.Id}_1.{item.Extension}";
+            var file = new FileData()
+            {
+              FileBytes = bytes,
+              
+              FileName=file_path,
+              
+   
+            };
+  
+  
+           UploadFiles(file);
+        _unitOfWork.Commit();
+        return Request.CreateResponse(HttpStatusCode.OK);
+        }
+    }
+    catch (Exception ex)
+    {
+        LogExceptionError(ex);
+        return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ex);
+    }
+}
+
+
+
